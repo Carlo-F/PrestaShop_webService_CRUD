@@ -2,8 +2,8 @@
 <?php
 // Here we define constants /!\ You need to replace this parameters
 define('DEBUG', false);
-define('PS_SHOP_PATH', 'http://127.0.0.1/prestashop');
-define('PS_WS_AUTH_KEY', 'P8WGZZQ1WNDL85GYFMC5IQU32SHLSWSD');
+define('PS_SHOP_PATH', 'shop_path');
+define('PS_WS_AUTH_KEY', 'auth_key');
 require_once('./PSWebServiceLibrary.php');
 
 // First : We always get the customer's list or a specific one
